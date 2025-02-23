@@ -29,7 +29,8 @@ const Login = () => {
             <input
               type="text"
               value={username}
-              required={username === ""}
+              required
+              //   required={username === ""}
               //   placeholder="Username"
               onChange={(e) => setUsername(e.target.value)}
             />
@@ -39,7 +40,8 @@ const Login = () => {
             <input
               type="password"
               value={password}
-              required={password === ""}
+              required
+              //   required={password === ""}
               //   placeholder="Password"
               onChange={(e) => setPassword(e.target.value)}
             />
